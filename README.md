@@ -6,7 +6,7 @@
 
 ---
 
-## 🚀 Features
+## Features
 
 * **Automated SEO Analysis:** Extracts top search terms from search results to guide article creation.
 * **Dynamic Article Generation:** Creates structured articles with headings and subheadings based on keyword analysis.
@@ -17,7 +17,7 @@
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 seo-article-agent/
