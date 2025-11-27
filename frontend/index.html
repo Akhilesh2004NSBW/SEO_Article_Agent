@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SEO Article Agent</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+        /* Optional CSS for nice styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .search-box {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .search-box input {
+            flex: 1;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .search-box button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .search-box button:hover {
+            background-color: #0056b3;
+        }
+
+        #resultsContainer {
+            margin-top: 20px;
+        }
+
+        .result-card {
+            padding: 15px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fafafa;
+            box-shadow: 0 0 5px rgba(0,0,0,0.05);
+        }
+
+        .result-card .title {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .result-card .link {
+            color: #007bff;
+            text-decoration: none;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        .result-card .snippet {
+            font-size: 14px;
+            color: #333;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>SEO Article Agent</h1>
+
+            <div class="search-box">
+                <input type="text" id="topicInput"
+                    placeholder="Enter your keyword...">
+                <button onclick="search()">Generate</button>
+            </div>
+
+            <h2>Search Results</h2>
+            <div id="resultsContainer"></div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
